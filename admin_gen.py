@@ -4,7 +4,7 @@ from util import gen
 amount = int(input('Amount : '))
 date = int(input('date : '))
 
-licenses = []
+licenses = [sibalgay]
 
 for _ in range(amount):
     code = "Venex-" + gen.gen(15)
