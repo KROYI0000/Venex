@@ -1,4 +1,4 @@
-.from flask import Flask, render_template, request, session, redirect, abort, url_for
+from flask import Flask, render_template, request, session, redirect, abort, url_for
 import sqlite3, json
 import os
 import uuid
